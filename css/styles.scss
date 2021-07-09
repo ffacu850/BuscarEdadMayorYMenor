@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.title{
+    color: #777;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+}
+.new_label{
+    margin: 20px 0 20px 20px;
+    
+}
+
+.new_input{
+    margin: 20px 0 20px 10px; 
+}
+
+.button_calcular{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.red_message{
+    margin-top: 50px;
+    color: red;
+    font-size: 30px;
+}
